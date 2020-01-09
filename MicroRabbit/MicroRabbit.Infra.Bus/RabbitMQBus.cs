@@ -25,6 +25,7 @@ namespace MicroRabbit.Infra.Bus
             _handlers = new Dictionary<string, List<Type>>();
             _eventTypes = new List<Type>();
         }
+
         public void Publish<T>(T @event) where T : Event
         {
             var factory = new ConnectionFactory() { HostName = "localhost" };
