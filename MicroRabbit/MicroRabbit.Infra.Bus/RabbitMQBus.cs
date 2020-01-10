@@ -69,7 +69,7 @@ namespace MicroRabbit.Infra.Bus
         {
             var factory = new ConnectionFactory()
             {
-                HostName = "localhsot",
+                HostName = "127.0.0.1",
                 DispatchConsumersAsync = true
             };
             var connection = factory.CreateConnection();
