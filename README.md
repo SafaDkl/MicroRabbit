@@ -1,2 +1,2 @@
 # MicroRabbit
-Microservices with RabbitMQ from course from Udemy.
+Microservices with RabbitMQ from course practice on Udemy.
